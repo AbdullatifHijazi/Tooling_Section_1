@@ -1,0 +1,17 @@
+
+1st Command:
+target remote localhost:3333  /* used to connect to gdb server */ 
+	
+note: the word " monitor " is added to the command in case of using gdb client
+2nd Command:
+	monitor reset init
+	
+3rd Command:
+flash write_image erase final.elf
+
+4th Command:
+reset halt
+
+5th Command:
+resume
+
